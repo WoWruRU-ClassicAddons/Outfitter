@@ -1,7 +1,5 @@
-Outfitter_cVersion = "1.4.1";
-
 Outfitter_cTitle = "Outfitter";
-Outfitter_cTitleVersion = Outfitter_cTitle.." "..Outfitter_cVersion;
+Outfitter_cTitleVersion = "Outfitter 1.4.1";
 
 Outfitter_cNameLabel = "Name:";
 Outfitter_cCreateUsingTitle = "Optimize for:";
@@ -240,8 +238,7 @@ Outfitter_cCityOutfitDescription = "This outfit will automatically be worn whene
 
 Outfitter_cKeyBinding = "Key Binding";
 
-BINDING_HEADER_OUTFITTER_TITLE = Outfitter_cTitle;
-
+BINDING_HEADER_OUTFITTER_TITLE = "Outfitter"
 BINDING_NAME_OUTFITTER_OUTFIT1  = "Outfit 1";
 BINDING_NAME_OUTFITTER_OUTFIT2  = "Outfit 2";
 BINDING_NAME_OUTFITTER_OUTFIT3  = "Outfit 3";
@@ -257,7 +254,6 @@ Outfitter_cDisableOutfit = "Disable Outfit";
 Outfitter_cDisableOutfitInBG = "Disable Outfit When in Battlegrounds";
 Outfitter_cDisabledOutfitName = "%s (Disabled)";
 
-Outfitter_cMinimapButtonTitle = "Outfitter Minimap Button";
 Outfitter_cMinimapButtonDescription = "Click to select a different outfit or drag to re-position this button.";
 
 Outfitter_cDruidClassName = "Druid";

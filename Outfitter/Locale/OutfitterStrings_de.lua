@@ -1,7 +1,4 @@
 if GetLocale() == "deDE" then
-	Outfitter_cTitle = "Outfitter";
-	Outfitter_cTitleVersion = Outfitter_cTitle.." "..Outfitter_cVersion;
-
 	Outfitter_cNameLabel = "Name:";
 	Outfitter_cCreateUsingTitle = "Optimieren f\195\188r:";
 	Outfitter_cUseCurrentOutfit = "Benutze derzeitiges Outfit";
@@ -224,8 +221,6 @@ if GetLocale() == "deDE" then
 
 	Outfitter_cKeyBinding = "Tastaturbelegung";
 
-	BINDING_HEADER_OUTFITTER_TITLE = Outfitter_cTitle;
-
 	BINDING_NAME_OUTFITTER_OUTFIT1  = "Outfit 1";
 	BINDING_NAME_OUTFITTER_OUTFIT2  = "Outfit 2";
 	BINDING_NAME_OUTFITTER_OUTFIT3  = "Outfit 3";
@@ -241,7 +236,6 @@ if GetLocale() == "deDE" then
 	Outfitter_cDisableOutfitInBG = "Outfit beim Betreten eines Schlachtfeldes abschalten.";
 	Outfitter_cDisabledOutfitName = "%s (Abgeschalten)";
 
-	Outfitter_cMinimapButtonTitle = "Outfitter Minimapbutton";
 	Outfitter_cMinimapButtonDescription = "Klicken f\195\188r eine Auswahl an Outfits oder gedr\195\188ckthalten zum bewegen des Buttons.";
 
 	Outfitter_cDruidClassName = "Druide";

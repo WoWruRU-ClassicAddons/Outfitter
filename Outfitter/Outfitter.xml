@@ -346,7 +346,7 @@
 						</Texture>
 					</Layer>
 					<Layer level="OVERLAY">
-						<FontString name="$parentTitle" text="Outfitter_cTitleVersion" inherits="GameFontHighlight">
+						<FontString name="$parentTitle" text="Outfitter_cTitle" inherits="GameFontHighlight">
 							<Anchors>
 								<Anchor point="TOP">
 									<Offset>
@@ -1335,7 +1335,7 @@
 				PlaySound("igMainMenuOptionCheckBoxOn");
 			</OnMouseUp>
 			<OnEnter>
-				GameTooltip_AddNewbieTip(Outfitter_cMinimapButtonTitle, 1, 1, 1, Outfitter_cMinimapButtonDescription, 1);
+				GameTooltip_AddNewbieTip("Outfitter", 1, 1, 1, Outfitter_cMinimapButtonDescription, 1);
 			</OnEnter>
 			<OnLeave>
 				GameTooltip:Hide();
